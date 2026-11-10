@@ -6,7 +6,7 @@ Proyecto de tesis de Diseño Gráfico (ULA, Escuela de Diseño Gráfico y Artes 
 
 | Archivo | Qué es |
 |---|---|
-| `docs/proyecto-completo-15-octubre.docx` | **Documento principal** (capítulos I–VI). El capítulo V es la especificación de lo que se debe construir. |
+| `docs/proyecto-completo-15-octubre-ligero.docx` | **Documento principal** (capítulos I–VI; copia con imágenes comprimidas, el original pesa 4 MB y está en el disco de Pedro). El capítulo V es la especificación de lo que se debe construir. |
 | `docs/anteproyecto-revision-final.docx` | Anteproyecto (solo contexto; manda el documento principal). |
 
 Los `.docx` incluyen datos personales de la autora: mantener el repo privado.
