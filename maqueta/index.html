@@ -18,25 +18,43 @@
         <svg viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
           <ellipse cx="16" cy="21" rx="7.5" ry="6"/><ellipse cx="6.5" cy="13" rx="3" ry="3.8"/><ellipse cx="12.5" cy="7.5" rx="3" ry="3.8"/><ellipse cx="19.5" cy="7.5" rx="3" ry="3.8"/><ellipse cx="25.5" cy="13" rx="3" ry="3.8"/>
         </svg>
-        Amiuni
+        <span data-site="nombreMarca">Amiuni</span>
       </a>
       <nav class="nav" aria-label="Principal">
         <a href="#/" data-ruta="inicio">Adoptar</a>
         <a href="#/donar" data-ruta="donar">Donar</a>
+        <a href="#/seguimiento" data-ruta="seguimiento">Seguimiento</a>
+        <a href="#/academia" data-ruta="academia">Academia</a>
       </nav>
     </div>
   </header>
 
   <main id="main" tabindex="-1"><div class="contenedor" id="vista"></div></main>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
 
   <footer class="pie">
     <div class="contenedor">
-      <p><strong>Fundación Amiuni</strong> · Mérida, Venezuela</p>
-      <p style="margin:0">Maqueta funcional de la tesis de Melany Monsalve (ULA, Diseño Gráfico). Los animales, fotos, cifras y medios de pago son de ejemplo.</p>
+      <p><strong data-site="subtituloPie">Fundación Amiuni · Mérida, Venezuela</strong> · <a href="#/admin">Panel de gestión (demo)</a></p>
+      <p class="m-0" data-site="avisoPie">Maqueta funcional de la tesis de Melany Monsalve (ULA, Diseño Gráfico). Los animales, fotos, cifras y medios de pago son de ejemplo.</p>
+      <p class="m-0" data-site="contactoPie"></p>
     </div>
   </footer>
 
   <script src="js/datos.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/modules/utils.js"></script>
+  <script src="js/modules/validators.js"></script>
+  <script src="js/modules/filters.js"></script>
+  <script src="js/modules/store.js"></script>
+  <script src="js/modules/router.js"></script>
+  <script src="js/modules/tangram.js"></script>
+  <script src="js/modules/views/components.js"></script>
+  <script src="js/modules/views/inicio.js"></script>
+  <script src="js/modules/views/ficha.js"></script>
+  <script src="js/modules/views/adopcion.js"></script>
+  <script src="js/modules/views/donar.js"></script>
+  <script src="js/modules/views/seguimiento.js"></script>
+  <script src="js/modules/views/academia.js"></script>
+  <script src="js/modules/views/admin.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
